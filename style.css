@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ff{
+    height: 20%;
+    position: absolute;
+    right: 675px;
+    bottom: 200px; 
+}
+
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.main
+{
+    background-image: url(./img/Wood.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: round;
+    
+
+
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+
+
+
+

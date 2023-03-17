@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/KiwiPageBackground.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(121, 77, 77);
+}
+
+.kiwicontent h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+.kiwicontent p{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kiwicontent{
+    margin-left: 20%;
+    overflow: hidden;
+    
+}
+
+.featurekiwi{
+    height: 30%;
+    position: absolute;
+    right: 580px;
+    bottom: 475px;
+}
+
+.kiwiN{
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+    top: 50px;
+}
+
+.kiwicontent h2{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.kiwismoothie{
+    height: 20%;
+    position: absolute;
+    right: 700px;
+    bottom: 100px;
+    
+}
